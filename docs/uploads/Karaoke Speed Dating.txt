@@ -1,0 +1,133 @@
+Yep — send **this exact paste** into Emergent so it stops asking and builds the right thing, with the karaoke speed-dating game included:
+
+```text id="7x6eqh"
+Use these product decisions for Syncd and proceed without more clarification:
+
+MATCHING MODEL:
+Both. Primary experience should be swipe/discovery, with optional search/filter.
+
+MESSAGING:
+Match-only by default for normal users.
+Open messaging is NOT allowed.
+However, live event/game rooms can temporarily enable interaction during the event flow.
+After the event, 1-to-1 chat only unlocks if there is a mutual match.
+
+PLATFORMS / STACK:
+Start mobile-first with React Native / Expo frontend.
+Backend: FastAPI + SQLite for MVP, designed so it can later move to Postgres with minimal schema changes.
+Build the codebase in a clean, scalable way so web can be added later.
+
+DIFFERENTIATOR:
+Syncd is a music-aware adult social/dating app where compatibility is based on music taste, live interaction, and paid trust-based engagement mechanics instead of dead profile swiping alone.
+
+ADD THIS CORE GAME / FEATURE:
+“Karaoke Roulette” = speed dating meets karaoke.
+
+KARAOKE ROULETTE FEATURE REQUIREMENTS:
+- Live event-based matching game
+- Users join a themed room
+- They are paired 1-on-1 for short timed rounds
+- Each round includes:
+  1. 20–30 second intro
+  2. 45–90 second karaoke / lip-sync / finish-the-lyric / duet challenge
+  3. 30–60 second mini chat
+  4. quick mutual vibe rating
+  5. rotate to next person
+- Users can choose voice/video on, audio-only, or lip-sync mode
+- After each round users can tap:
+  - liked their vibe
+  - friend vibe
+  - romantic vibe
+  - same music taste
+  - want another round
+- If both users like each other, create a match and unlock private chat
+- Include themed rooms like:
+  - 90s night
+  - emo night
+  - country night
+  - rap/hip-hop night
+  - love songs
+  - toxic ex anthems
+- Include moderation and safety:
+  - report
+  - block
+  - leave room
+  - age gating
+  - no recording without consent
+  - basic host/admin controls
+- Include monetization hooks:
+  - free users get limited games per day
+  - premium gets more rounds and premium rooms
+  - credits can be used for extra entries, replays, encore requests, and priority placement
+
+MVP SCOPE TO BUILD NOW:
+1. Auth
+2. Profile setup
+3. Music taste onboarding
+4. Discovery/swipe feed
+5. Like/pass
+6. Matches
+7. Match-only chat
+8. Basic subscriptions / credits foundation
+9. Karaoke Roulette MVP event flow
+10. Report/block/admin basics
+
+PROFILE FIELDS:
+- display name
+- age
+- gender
+- location
+- distance radius
+- interested in
+- kids
+- work
+- interests
+- short bio
+- prompt questions
+- photos
+- favorite artists
+- favorite genres
+- top songs
+- optional streaming-service taste import placeholder
+
+MUSIC COMPATIBILITY:
+Create a compatibility system based on favorite artists, genres, saved taste inputs, and event behavior.
+Show a music compatibility score in profile/discovery.
+
+PAID / PREMIUM DIRECTION:
+This app is premium, adult-focused, and monetizable.
+Build with support for:
+- subscriptions
+- credits
+- premium rooms/events
+- creator/earner profiles later
+- trust-based paid interactions later
+But only implement the foundation cleanly in MVP.
+
+NOW BUILD:
+1. Exact data model / schema
+2. API routes
+3. Backend FastAPI project
+4. Expo mobile starter frontend
+5. Screens / flows
+6. Karaoke Roulette MVP flow
+7. Clear file structure
+8. Step-by-step local run instructions
+9. Notes for later migration to Postgres and production services
+```
+
+## Tiny improvement I’d make
+Tell it **not to ask more questions unless there is a blocker**. Add this line at the bottom if you want:
+
+```text id="x7xtob"
+Do not pause for more product questions unless there is a true implementation blocker. Make reasonable decisions and keep building.
+```
+
+## One stronger differentiator line
+If you want the hook sharper, use this instead of the current differentiator:
+
+```text id="40iaoe"
+Syncd turns music chemistry into real-time connection by combining taste-based matching, live karaoke-style speed dating, and premium adult interaction features.
+```
+
+If you want, I’ll make you a **second paste** right after this one that tells Emergent exactly how to structure the **database tables and screen list** so it builds cleaner the first time.
