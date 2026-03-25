@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+syncd.db
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# misc
+.DS_Store
